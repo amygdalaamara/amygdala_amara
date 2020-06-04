@@ -5,62 +5,22 @@
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
 <style>
-img.profilbild {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-a.one {
-color:#00FF00;
-text-decoration:none;
-font-family: 'Courier New',Arial;
-font-size: 16px;
-font-weight: lighter;
-}
-/* mouse over link */
-a.one:hover {
-  color: #4e23ff;
-  text-decoration:none;
-  font-family: 'Courier New',Arial;
-  font-size: 16px;
-  font-weight: lighter;
+/* Container holding the image and the text */
+.hintergrund {
+  position: relative;
+  text-align: center;
 }
 
-div.absolute {
+
+
+/* Top right text */
+.top-right {
   position: absolute;
-  bottom: 17px;
-  right: 15px;
-  width: 400px;
-  text-align: right;
-}
-
-a.two {
-color:#00FF00;
-text-decoration:none;
-font-family: 'Courier New',Arial;
-font-size: 12px;
-font-weight: lighter;
-}
-/* mouse over link */
-a.two:hover {
-  color: #4e23ff;
-  text-decoration:none;
-  font-family: 'Courier New',Arial;
-  font-size: 12px;
-  font-weight: lighter;
-}
-
-div.lyrics {
-width:      100%;
-  height:     100%; 
-  z-index:    10;
-  top:        0; 
-  left:       0; 
-  position:   fixed; 
-  pointer-events: none;
-}
+  top: 1%;
+  right: 1.25%;
+  }
   
-  img.youtube {
+    img.youtube {
   top: 17px;
   right: 15px;
 position: absolute;
@@ -173,30 +133,129 @@ position: absolute;
 z-index:1
   }  
   
+  
+  
+
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 3%;
+  right: 1.25%;
+}
+
+div.absolute {
+  position: absolute;
+  bottom: 17px;
+  right: 15px;
+  width: 400px;
+  text-align: right;
+}
+
+a.two {
+color:#00FF00;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 14px;
+font-weight: lighter;
+}
+
+/* mouse over link */
+a.two:hover {
+  color: #778dff;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 14.25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: relative;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -1000%);
+}
+
+a.one {
+color:#00FF00;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 16px;
+font-weight: lighter;
+}
+/* mouse over link */
+a.one:hover {
+  color: #778dff;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+.centered3 {
+  position: relative;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -650%);
+}
+
+a.four {
+color:#778dff;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 13px;
+font-weight: lighter;
+}
+/* mouse over link */
+a.four:hover {
+  color: #00FF00;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.about {
+position: relative;
+  right: 0px;
+  top: 60px;
+}
+
+div.lyrics {
+width:      100%;
+  height:     100%; 
+  z-index:    -1;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+  pointer-events: none;
+}
+
 </style>
 </head>
 <html>
 <body>
 
-<p style="visibility:hidden">
-Hello, you
-</p>
 
-<h2 style="visibility:hidden">{ margin-top: 10px; }</h2><h1><span style="font-size:16px"><span style="color:#00FF00"><span style="font-family:'Courier New',Arial;"><span style="font-weight: lighter"><center>amygdala_amara</center></h1>
 
-<img class="profilbild" src="sweetdemon12.png" alt="…" width="640" height="358">
 
-<p><center><a class="one" href="https://ffm.to/amygdala_amara"target="_blank"> _NEW SONG </a> 
-<a class="one" href="spotify:artist:5ow5XVwCOfNy3rifz6KSoF"target="_blank"> spotify:12px </a>
-<a class="one" href="https://music.apple.com/de/artist/amygdala-amara/1513588735"> apple music;} </a>
-<a class="one" href="https://www.amazon.de/Sweet-Demon-amygdala_amara/dp/B08951QFCW/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=amygdala_amara&qid=1591103093&sr=8-1"target="_blank"> /amazon music/ </a>
-<a class="one" href="https://music.youtube.com/channel/UCMAxL753zYWHUjJMRNLlPPQ"target="_blank"> 'youtube music' </a>
-</center></p>
 
-<h2><span style="font-size:13px"><span style="color:#4e23ff"><span style="font-family:'Courier New',Arial;"><span style="font-weight: lighter"><center>new single "We Can't Be the Judged Ones, If There's No One to Judge Us" out on 06/26 <br> 
---> pre-save! <-- </center></h2>
+<div class="hintergrund">
+<img class="profilbild" src="hintergrund1.png" alt="…" width="100%" height="100%">
 
-<a class="three" href="https://www.youtube.com/channel/UCZ3Q6Jyo-1jtmnjm7v7ZOdg?view_as=subscriber"target="_blank"><img class="youtube" src="youtube.png" width="30" height="30"></a>
+ 
+ 
+  <div class="top-right"><a class="three" href="https://www.youtube.com/channel/UCZ3Q6Jyo-1jtmnjm7v7ZOdg?view_as=subscriber"target="_blank"><img class="youtube" src="youtube.png" width="30" height="30"></a>
 <a class="three" href="https://soundcloud.com/amygdala_amara"target="_blank"><img class="soundcloud" src="soundcloud.png"  width="30" height="30"></a>
 <a class="three" href="https://www.instagram.com/amygdala_amara/"target="_blank"><img class="instagram" src="instagram.png" width="30" height="30"></a>
 <a class="three" href="https://www.facebook.com/amygdalaamaramusic/"target="_blank"><img class="facebook" src="facebook.png" width="30" height="30"></a>
@@ -208,10 +267,27 @@ Hello, you
 <a class="three" href="https://www.instagram.com/amygdala_amara/"target="_blank"><img class="instagram2" src="instagram2.png" width="30" height="30"></a>
 <a class="three" href="https://www.facebook.com/amygdalaamaramusic/"target="_blank"><img class="facebook2" src="facebook2.png" width="30" height="30"></a>
 <a class="three" href="https://twitter.com/amygdalaamara"target="_blank"><img class="twitter2" src="twitter2.png"  width="30" height="30"></a>
-<a class="three" href="https://www.twitch.tv/amygdala_amara"target="_blank"><img class="twitch2" src="twitch2.png"  width="30" height="30"></a>
+<a class="three" href="https://www.twitch.tv/amygdala_amara"target="_blank"><img class="twitch2" src="twitch2.png"  width="30" height="30"></a></div>
 
 
-<div class="absolute"><span style="font-size:12px"><span style="color:#00FF00"><span style="font-family:'Courier New',Arial;"><span style="font-weight: lighter">requests:<br><a class="two" href= "mailto:contact@amygdala-amara.de">contact@amygdala-amara.de</a></div>
+  <div class="bottom-right"><div class="absolute"><span style="font-size:14px"><span style="color:#00FF00"><span style="font-family:'Courier New',Arial;"><span style="font-weight: lighter">requests:<br><a class="two" href= "mailto:contact@amygdala-amara.de">contact@amygdala-amara.de</a></div></div>
+  
+  <div class="centered"><h2 style="visibility:hidden"></h2><h1><span style="font-size:16px"><span style="color:#00FF00"><span style="font-family:'Courier New',Arial;"><span style="font-weight: lighter"><center>amygdala_amara</center></h1>
+</div>
+
+  <div class="centered2"><center><a class="one" href="https://ffm.to/amygdala_amara"target="_blank"> _NEW SONG </a> 
+<a class="one" href="spotify:artist:5ow5XVwCOfNy3rifz6KSoF"target="_blank"> spotify:12px </a>
+<a class="one" href="https://music.apple.com/de/artist/amygdala-amara/1513588735"> apple music;} </a>
+<a class="one" href="https://www.amazon.de/Sweet-Demon-amygdala_amara/dp/B08951QFCW/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=amygdala_amara&qid=1591103093&sr=8-1"target="_blank"> /amazon music/ </a>
+<a class="one" href="https://music.youtube.com/channel/UCMAxL753zYWHUjJMRNLlPPQ"target="_blank">'youtube music'</a>
+</center></div>
+</div>
+
+  <div class="centered3"><h2><span style="font-size:13px"><span style="color:#778dff"><span style="font-family:'Courier New',Arial;"><span style="font-weight: lighter"><center>new single "We Can't Be the Judged Ones, If There's No One to Judge Us" out on 06/26 <br> 
+--><a class="four" href="https://distrokid.com/hyperfollow/amygdalaamara/we-cant-be-the-judged-ones-if-theres-no-one-to-judge-us-2"> pre-save! </a><-- </center></h2></div>
+
+
+<div class="about"><img src="lila.png" align="right" width="289px" height="355px" hspace=20><p class="about2"><h2><span style="font-size:16px"><span style="color:#00FF00"><span style="font-family:'Courier New',Arial;"><span style="font-weight: lighter"><p align="right">about amygdala_amara</h2><p align="right"><span style="font-size:12px"><span style="color:#00FF00"><span style="font-family:'Courier New',Arial;"><span style="font-weight: lighter">amygdala_amara is a musician from berlin, who started making<br>alternative pop music, because studying medicine left too much free<br>space in her time squedule. It's also rumored, that she doesn't have in<br>fact too much time, but too much struggle making music and not<br>failing the exams, but the music thing is much more fun.</p></p></div>
 
 
 
