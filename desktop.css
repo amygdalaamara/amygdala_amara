@@ -1,0 +1,341 @@
+/* Stylesheet für Desktop */
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("profil.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left: 0%;
+  right: 0%;
+}
+
+a.four {
+color:#00FF00;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 14px;
+font-weight: lighter;
+}
+/* mouse over link */
+a.four:hover {
+  color: #d8ffd8;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 14px;
+  font-weight: lighter;
+   text-shadow: 2px 2px 5px #ec2ec4;
+}
+
+a.one {
+color:#00FF00;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 16px;
+font-weight: lighter;
+}
+/* mouse over link */
+a.one:hover {
+  color: #8e9cff;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 16px;
+  font-weight: lighter;
+   text-shadow: 2px 2px 5px red;
+}
+
+a.five {
+color:#00FF00;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 12px;
+font-weight: lighter;
+}
+/* mouse over link */
+a.five:hover {
+  color: #d8ffd8;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 12px;
+  font-weight: lighter;
+   text-shadow: 2px 2px 5px #ec2ec4;
+}
+
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  position: absolute;
+  top: 6%;
+  right: 1.25%;
+  }
+  
+    img.youtube {
+  top: 17px;
+  right: 15px;
+position: absolute;
+z-index: 2;
+  }
+   
+  img.youtube:hover{
+   opacity: 0;   
+}
+      
+ img.youtube2 {
+  top: 17px;
+  right: 15px;
+position: absolute;
+z-index:1
+  }
+  
+  img.soundcloud {
+  top: 47px;
+  right: 15px;
+  opacity: 1;
+position: absolute; 
+z-index: 2;
+  }
+  
+  img.soundcloud:hover{
+   opacity: 0;   
+}
+
+ img.soundcloud2 {
+  top: 47px;
+  right: 15px;
+position: absolute;
+z-index:1
+  }
+  
+  img.instagram {
+  top: 87px;
+  right: 15px;
+  opacity: 1;
+position:   absolute; 
+  z-index: 2;
+  }
+  
+  img.instagram:hover{
+   opacity: 0;   
+}
+
+ img.instagram2 {
+  top: 87px;
+  right: 15px;
+position: absolute;
+z-index:1
+  }
+  
+  img.facebook {
+  top: 127px;
+  right: 15px;
+  opacity: 1;
+position:   absolute; 
+   z-index: 2;
+  }
+  
+  img.facebook:hover{
+   opacity: 0;   
+}
+
+ img.facebook2 {
+  top: 127px;
+  right: 15px;
+position: absolute;
+z-index:1
+  }  
+  
+  img.twitter {
+  top: 167px;
+  right: 15px;
+  opacity: 1;
+position:   absolute; 
+z-index: 2;
+  }
+  
+  img.twitter:hover{
+   opacity: 0;   
+}
+
+ img.twitter2 {
+  top: 167px;
+  right: 15px;
+position: absolute;
+z-index:1
+  }  
+  
+  img.twitch {
+  top: 207px;
+  right: 15px;
+  opacity: 1;
+position:  absolute; 
+  z-index: 2;
+  }
+  
+  img.twitch:hover{
+   opacity: 0;   
+}
+
+ img.twitch2 {
+  top: 207px;
+  right: 15px;
+position: absolute;
+z-index:1
+  }  
+  
+  a.two {
+color:#000000;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 12px;
+font-weight: lighter;
+}
+
+/* mouse over link */
+a.two:hover {
+  color: #d8ffd8;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 12px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
+}
+
+/* for contact */
+a.six {
+color:#00FF00;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 12px;
+font-weight: lighter;
+}
+
+/* mouse over link */
+a.six:hover {
+  color: #d8ffd8;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 12px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
+}
+
+
+.about {
+margin-top:19em;
+}
+
+
+.sweetdemon {
+margin-top:19em;
+}
+
+.ghibli {
+margin-top:25em;
+}
+
+
+.angel {
+   overflow: hidden;
+   padding: 0px;
+   width: 100%;
+   margin-top:0em;
+}
+
+.contact {
+margin-top: 1em;
+}
+
+.centered3 {
+margin-top:8em;
+}
+
+div.music {
+margin-top:16em;
+}
+
+.thanksyou {
+margin-top:10em;
+}
+
+.sweetdemon img{
+border: 0.01em solid #3e0bb4;
+box-shadow: 0em 0em 0.5em 0.001em #7b0f1d;
+}
+
+.ghibli img{
+border: 0.01em solid #00c5ab;
+box-shadow: 0em 0em 0.5em 0.001em #b71c1c;
+}
+
+
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parallax {
+  background-image: url('blue.jpg');
+margin-top:16em;
+  height: 90em; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+font-size:16px; 
+color:#000000; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: right;
+}
+
+h4 {
+font-size:12px; 
+color:#000000; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: right;
+}
+
+h5 {
+font-size:16px; 
+color:#000000; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: left;
+}
+
+h6 {
+font-size:12px; 
+color:#000000; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: left;
+}
+</style>
+</head>
