@@ -312,6 +312,7 @@ color:#000000;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: right;
+ text-shadow: 2px 2px 5px #1ff2de;
 }
 
 h4 {
@@ -320,6 +321,7 @@ color:#000000;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: right;
+ text-shadow: 2px 2px 5px #1ff2de;
 }
 
 h5 {
@@ -328,6 +330,7 @@ color:#000000;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: left;
+ text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 h6 {
@@ -336,6 +339,7 @@ color:#000000;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: left;
+ text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 
