@@ -239,17 +239,8 @@ a.six:hover {
   text-shadow: 2px 2px 5px #ec2ec4;
 }
 
-.about {
-margin-top:19em;
-}
 
-.sweetdemon {
-margin-top:19em;
-}
 
-.ghibli {
-margin-top:25em;
-}
 
 
 img.releases {
@@ -271,7 +262,7 @@ opacity: 0.9;
    overflow: hidden;
    padding: 0em;
    width: 100%;
-   margin-top:0em;
+   margin-top:0em !important;
     transition: 1s;
 }
 
@@ -296,14 +287,62 @@ margin-top:16em;
 margin-top:10em;
 }
 
-.sweetdemon img{
-border: 0.01em solid #3e0bb4;
-box-shadow: 0em 0em 0.5em 0.001em #7b0f1d;
+div.about {
+margin-top:19em;
 }
 
-.ghibli img{
+img.about {
+float: right; 
+float: right !important;
+margin-left:30px !important;
+margin-bottom:30px !important;
+margin-right:30px !important;
+margin-top:0em !important;
+}
+
+p.about1 {
+font-size:16px; 
+color:#00ff00; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+ text-align: right;
+}
+
+p.about2 {
+font-size:12px; 
+color:#00ff00; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: right;
+line-height: 1.5;
+}
+
+
+div.sweetdemon {
+margin-top:19em;
+}
+
+div.ghibli {
+margin-top:25em !important;
+}
+
+img.sweetdemon {
+border: 0.01em solid #3e0bb4;
+box-shadow: 0em 0em 0.5em 0.001em #7b0f1d;
+float: left !important;
+margin-right:30px !important;
+margin-bottom:30px !important;
+margin-left:30px !important;
+}
+
+img.ghibli {
 border: 0.01em solid #00c5ab;
 box-shadow: 0em 0em 0.5em 0.001em #b71c1c;
+float: right !important;
+margin-left:30px !important;
+margin-bottom:30px !important;
+margin-right:30px !important;
+margin-top:0em !important;
 }
 
 
@@ -315,6 +354,7 @@ body, html {
 .parallax {
   background-image: url('blue.jpg');
 margin-top:0em;
+margin-bottom: 0em !important;
   height: 90em; 
   background-attachment: fixed;
   background-position: center;
@@ -322,13 +362,6 @@ margin-top:0em;
   background-size: cover;
 }
 
-.parallax {
-cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🧚🏾‍♀️</text></svg>") 16 0,auto; 
-}
-
-.parallax a:hover {
-cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🧚🏼</text></svg>") 16 0,auto; 
-}
 
 h3 {
 font-size:16px; 
@@ -346,6 +379,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
 text-align: right;
  text-shadow: 2px 2px 5px #1ff2de;
+ line-height: 1.5;
 }
 
 h5 {
@@ -353,8 +387,8 @@ font-size:16px;
 color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
-text-align: left;
  text-shadow: 2px 2px 5px #ec2ec4;
+ text-align: left;
 }
 
 h6 {
@@ -362,8 +396,9 @@ font-size:12px;
 color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
-text-align: left;
  text-shadow: 2px 2px 5px #ec2ec4;
+ text-align: left;
+ line-height: 1.5;
 }
 
 
