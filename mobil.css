@@ -312,7 +312,7 @@ img.releases {
    padding: 0px;
    width: 100%;
    margin-top:0em;
-   display: none;
+   
 }
 
 .contact {
@@ -367,10 +367,19 @@ text-align: center;
 }
 
 
-iframe {
-width: 100%;
-height: 100%;
-margin-top: 10em !important;
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%; 
+  height: 0;
+  margin-top: 10em;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>
 </head>
