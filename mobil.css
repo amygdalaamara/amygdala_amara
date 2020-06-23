@@ -1,4 +1,4 @@
-/* Stylesheet für Desktop */
+/* Stylesheet für Mobil */
 
 <!DOCTYPE html>
 <html>
@@ -35,7 +35,7 @@ font-family: 'Courier New',Arial;
 font-size: 14px;
 font-weight: lighter;
 }
-/* mouse over link */
+
 a.four:hover {
   color: #d8ffd8;
   text-decoration:none;
@@ -52,7 +52,7 @@ font-family: 'Courier New',Arial;
 font-size: 16px;
 font-weight: lighter;
 }
-/* mouse over link */
+
 a.one:hover {
   color: #8e9cff;
   text-decoration:none;
@@ -69,7 +69,7 @@ font-family: 'Courier New',Arial;
 font-size: 12px;
 font-weight: lighter;
 }
-/* mouse over link */
+
 a.five:hover {
   color: #d8ffd8;
   text-decoration:none;
@@ -213,7 +213,7 @@ font-size: 12px;
 font-weight: lighter;
 }
 
-/* mouse over link */
+
 a.two:hover {
   color: #d8ffd8;
   text-decoration:none;
@@ -223,7 +223,7 @@ a.two:hover {
   text-shadow: 2px 2px 5px #ec2ec4;
 }
 
-/* for contact */
+
 a.six {
 color:#00FF00;
 text-decoration:none;
@@ -232,7 +232,7 @@ font-size: 12px;
 font-weight: lighter;
 }
 
-/* mouse over link */
+
 a.six:hover {
   color: #d8ffd8;
   text-decoration:none;
@@ -247,7 +247,6 @@ a.six:hover {
 margin-top:19em;
 }
 
-
 .sweetdemon {
 margin-top:19em;
 }
@@ -256,8 +255,14 @@ margin-top:19em;
 margin-top:25em;
 }
 
-
-.angel {
+img.releases {
+   overflow: hidden;
+   padding: 0em;
+   width: 100%;
+   margin-top:16em;
+   }
+   
+.logo {
    overflow: hidden;
    padding: 0px;
    width: 100%;

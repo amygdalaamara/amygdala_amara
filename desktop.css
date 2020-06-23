@@ -251,12 +251,34 @@ margin-top:19em;
 margin-top:25em;
 }
 
-.angel {
+
+img.releases {
    overflow: hidden;
-   padding: 0px;
+   padding: 0em;
+   width: 100%;
+   margin-top:16em;
+   transition: 1s;
+
+}
+
+img.releases:hover{
+-webkit-filter: hue-rotate(-150deg) !important;
+opacity: 0.9;
+}
+
+
+.logo {
+   overflow: hidden;
+   padding: 0em;
    width: 100%;
    margin-top:0em;
+    transition: 1s;
 }
+
+.logo:hover{
+-webkit-filter: hue-rotate(-98deg) !important;
+}
+
 
 .contact {
 margin-top: 1em;
@@ -292,7 +314,7 @@ body, html {
 
 .parallax {
   background-image: url('blue.jpg');
-margin-top:16em;
+margin-top:0em;
   height: 90em; 
   background-attachment: fixed;
   background-position: center;
