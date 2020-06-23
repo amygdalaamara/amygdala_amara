@@ -249,16 +249,16 @@ margin-top:19em;
 
 .sweetdemon {
 margin-top:0em;
-display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .ghibli {
 margin-top:25em;
-display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block !important;
+  margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 img.releases {

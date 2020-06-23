@@ -267,7 +267,7 @@ opacity: 0.9;
 }
 
 
-.angel {
+.logo {
    overflow: hidden;
    padding: 0em;
    width: 100%;
@@ -275,7 +275,7 @@ opacity: 0.9;
     transition: 1s;
 }
 
-.angel:hover{
+.logo:hover{
 -webkit-filter: hue-rotate(-98deg) !important;
 }
 
