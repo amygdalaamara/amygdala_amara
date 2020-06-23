@@ -16,9 +16,8 @@ html {
 }
 
  body {
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("blue2.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("blue2.jpg");
+background-position: top;
   width: 100%;
 }
 
