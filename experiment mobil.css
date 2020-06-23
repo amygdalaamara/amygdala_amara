@@ -11,6 +11,13 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+ body {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("blue2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("profil.jpg");
   height: 100%;

@@ -15,6 +15,13 @@ html {
   scroll-behavior: smooth;
 }
 
+ body {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("blue2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("profil.jpg");
   height: 100%;
@@ -252,6 +259,8 @@ margin-top:15em !important;
 }
 
 img.about {
+border: 2em solid #000000;
+box-shadow: 0em 0em 0.5em 0.001em #00ff00;
 margin-top:0em;
 display: block;
 margin-left: auto;
@@ -265,6 +274,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
  text-align: left;
  margin-left:30px;
+ margin-top: 3em;
 }
 
 p.about2 {
@@ -275,6 +285,7 @@ font-weight: lighter;
 text-align: left;
 line-height: 1.5;
  margin-left:30px;
+  margin-top: 3em;
 }
 
 div.sweetdemon {
@@ -286,6 +297,8 @@ margin-top:15em !important;
 }
 
 img.sweetdemon {
+border: 0.01em solid #3e0bb4;
+box-shadow: 0em 0em 0.5em 0.001em #7b0f1d;
 margin-top:10em;
 display: block;
     margin-left: auto;
@@ -293,6 +306,8 @@ display: block;
 }
 
 img.ghibli {
+border: 0.01em solid #00c5ab;
+box-shadow: 0em 0em 0.5em 0.001em #b71c1c;
 margin-top:0em;
 display: block;
     margin-left: auto;
@@ -312,11 +327,11 @@ img.releases {
    padding: 0px;
    width: 100%;
    margin-top:0em;
-   
+   display: none;
 }
 
 .contact {
-margin-top: 1em;
+margin-top: 7em;
 }
 
 .centered3 {
@@ -347,6 +362,7 @@ color:#00ff00;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: center;
+line-height: 1.5;
 }
 
 h5 {
@@ -364,6 +380,7 @@ color:#00ff00;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: center;
+line-height: 1.5;
 }
 
 
