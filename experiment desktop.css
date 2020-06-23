@@ -11,6 +11,7 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("profil.jpg");
   height: 100%;
@@ -35,7 +36,7 @@ font-family: 'Courier New',Arial;
 font-size: 14px;
 font-weight: lighter;
 }
-
+/* mouse over link */
 a.four:hover {
   color: #d8ffd8;
   text-decoration:none;
@@ -52,7 +53,7 @@ font-family: 'Courier New',Arial;
 font-size: 16px;
 font-weight: lighter;
 }
-
+/* mouse over link */
 a.one:hover {
   color: #8e9cff;
   text-decoration:none;
@@ -69,7 +70,7 @@ font-family: 'Courier New',Arial;
 font-size: 12px;
 font-weight: lighter;
 }
-
+/* mouse over link */
 a.five:hover {
   color: #d8ffd8;
   text-decoration:none;
@@ -213,6 +214,7 @@ font-size: 12px;
 font-weight: lighter;
 }
 
+/* mouse over link */
 a.two:hover {
   color: #d8ffd8;
   text-decoration:none;
@@ -222,6 +224,7 @@ a.two:hover {
   text-shadow: 2px 2px 5px #ec2ec4;
 }
 
+/* for contact */
 a.six {
 color:#00FF00;
 text-decoration:none;
@@ -230,6 +233,7 @@ font-size: 12px;
 font-weight: lighter;
 }
 
+/* mouse over link */
 a.six:hover {
   color: #d8ffd8;
   text-decoration:none;
@@ -239,9 +243,11 @@ a.six:hover {
   text-shadow: 2px 2px 5px #ec2ec4;
 }
 
+
 .about {
 margin-top:19em;
 }
+
 
 .sweetdemon {
 margin-top:19em;
@@ -250,6 +256,7 @@ margin-top:19em;
 .ghibli {
 margin-top:25em;
 }
+
 
 .angel {
    overflow: hidden;
@@ -300,54 +307,60 @@ margin-top:16em;
   background-size: cover;
 }
 
-.parallax {
-cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🧚🏾‍♀️</text></svg>") 16 0,auto; 
-}
-
-.parallax a:hover {
-cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='30' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🧚🏼</text></svg>") 16 0,auto; 
-}
-
 h3 {
-font-size:16px; 
-color:#000000; 
+ color: #00FF00;
+ mix-blend-mode: saturation;
+ font-size:16px; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
+text-align: left;
 text-align: right;
- text-shadow: 2px 2px 5px #1ff2de;
+
 }
 
 h4 {
-font-size:12px; 
-color:#000000; 
+ color: #00FF00;
+ mix-blend-mode: saturation;
+ font-size:12px; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: right;
- text-shadow: 2px 2px 5px #1ff2de;
 }
 
 h5 {
-font-size:16px; 
-color:#000000; 
+ color: #00FF00;
+mix-blend-mode: saturation;
+ font-size:16px; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: left;
- text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 h6 {
+ color: #ff00ff;
+mix-blend-mode: overlay;
 font-size:12px; 
-color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: left;
- text-shadow: 2px 2px 5px #ec2ec4;
 }
+
 
 
 iframe {
 width: 100%;
 height: 100%;
+}
+
+div.lyrics {
+width:      100%;
+  height:     100%; 
+  z-index:    10;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+  pointer-events: none;
+  mix-blend-mode: saturation;
 }
 </style>
 </head>
