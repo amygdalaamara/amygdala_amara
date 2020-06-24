@@ -15,11 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
- body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("blue2.jpg");
-background-position: top;
-  width: 100%;
-}
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("profil.jpg");
@@ -258,8 +253,6 @@ margin-top:15em !important;
 }
 
 img.about {
-border: 2em solid #000000;
-box-shadow: 0em 0em 0.5em 0.001em #00ff00;
 margin-top:0em;
 display: block;
 margin-left: auto;
@@ -296,8 +289,8 @@ margin-top:15em !important;
 }
 
 img.sweetdemon {
-border: 0.01em solid #3e0bb4;
-box-shadow: 0em 0em 0.5em 0.001em #7b0f1d;
+border: 0.01em solid #570ffc;
+box-shadow: 0em 0em 0.5em 0.001em red;
 margin-top:10em;
 display: block;
     margin-left: auto;
@@ -318,7 +311,9 @@ img.releases {
    padding: 0em;
    width: 100%;
    margin-top:16em;
-   display: none;
+  box-shadow: 0 0 0px 1.5px #00ff00;
+	-moz-box-shadow: 0 0 0px 1.5px #00ff00;
+	-webkit-box-shadow: 0 0 0px 1.5px #00ff00;
    }
    
 .angel {
@@ -326,11 +321,10 @@ img.releases {
    padding: 0px;
    width: 100%;
    margin-top:0em;
-   display: none;
 }
 
 .contact {
-margin-top: 7em;
+margin-top: 3em;
 }
 
 .centered3 {
