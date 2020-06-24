@@ -289,8 +289,8 @@ margin-top:15em !important;
 }
 
 img.sweetdemon {
-border: 0.01em solid #570ffc;
-box-shadow: 0em 0em 0.5em 0.001em red;
+border: 0.01em solid #00c5ab;
+box-shadow: 0em 0em 0.5em 0.001em #b71c1c;
 margin-top:10em;
 display: block;
     margin-left: auto;
@@ -310,10 +310,7 @@ img.releases {
    overflow: hidden;
    padding: 0em;
    width: 100%;
-   margin-top:16em;
-  box-shadow: 0 0 0px 1.5px #00ff00;
-	-moz-box-shadow: 0 0 0px 1.5px #00ff00;
-	-webkit-box-shadow: 0 0 0px 1.5px #00ff00;
+display:none;
    }
    
 .angel {
