@@ -281,17 +281,17 @@ line-height: 1.5;
 }
 
 div.sweetdemon {
-margin-top:15em !important;
+margin-top:3em !important;
 }
 
 div.ghibli {
-margin-top:15em !important;
+margin-top:11em !important;
 }
 
 img.sweetdemon {
 border: 0.01em solid #00c5ab;
 box-shadow: 0em 0em 0.5em 0.001em #b71c1c;
-margin-top:10em;
+margin-top:0em;
 display: block;
     margin-left: auto;
     margin-right: auto
@@ -310,7 +310,7 @@ img.releases {
    overflow: hidden;
    padding: 0em;
    width: 100%;
-display:none;
+   margin-top: 11em;
    }
    
 .angel {

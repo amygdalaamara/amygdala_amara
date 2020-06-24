@@ -256,7 +256,7 @@ img.releases {
 }
 
 img.releases:hover{
--webkit-filter: hue-rotate(90deg) !important;
+-webkit-filter: hue-rotate(125deg) !important;
 }
 
 
