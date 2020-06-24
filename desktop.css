@@ -252,26 +252,31 @@ img.releases {
    padding: 0em;
    width: 100%;
    margin-top:16em;
-   transition: 1s;
-
+   transition: 0.5s;
+box-shadow: 0 0 0px 1.5px #00ff00;
+	-moz-box-shadow: 0 0 0px 1.5px #00ff00;
+	-webkit-box-shadow: 0 0 0px 1.5px #00ff00;
 }
 
 img.releases:hover{
--webkit-filter: hue-rotate(-150deg) !important;
+-webkit-filter: hue-rotate(50deg) !important;
 opacity: 0.9;
+ box-shadow:  0px 0px 0px 1px #00ff00 !important;
+
 }
 
 
-.logo {
+.angel {
    overflow: hidden;
    padding: 0em;
    width: 100%;
    margin-top:0em !important;
-    transition: 1s;
+      transition: 0.2s;
+   
 }
 
-.logo:hover{
--webkit-filter: hue-rotate(-98deg) !important;
+.angel:hover{
+-webkit-filter: hue-rotate(90deg) !important;
 }
 
 
