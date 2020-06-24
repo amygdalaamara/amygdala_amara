@@ -13,6 +13,17 @@ body, html {
 </style>
 </head>
 <body>
+
+<div class="loader">
+<img src="loader.gif"></div>
+
+<script type="text/javascript">
+window.addEventListener("load", function () {
+const loader = document.querySelector(".loader");
+loader.className += " hidden"; // class "loader hidden"
+});</script>
+
+
 <div class="hero-image">
 
  <div class="top-right"><a class="three" href="https://www.youtube.com/channel/UCZ3Q6Jyo-1jtmnjm7v7ZOdg?view_as=subscriber"target="_blank"><img class="youtube" src="youtube.png" width="30" height="30"></a>

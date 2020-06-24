@@ -11,11 +11,37 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
- body {
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("blue2.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
+html {
+  scroll-behavior: smooth;
+}
+
+.loader {
+position: fixed;
+z-index: 99;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(0,0,0, 0.7);
+}
+
+.loader > img {
+width: 7em;
+}
+
+.loader.hidden {
+animation: fadeOut 0.1s;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+100% {
+opacity 0;
+visibility: hidden;
+}
 }
 
 .hero-image {
@@ -251,7 +277,7 @@ a.six:hover {
 
 
 div.about {
-margin-top:19em !important;
+margin-top:15em !important;
 }
 
 img.about {
@@ -268,6 +294,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
  text-align: left;
  margin-left:30px;
+ margin-top: 3em;
 }
 
 p.about2 {
@@ -278,6 +305,7 @@ font-weight: lighter;
 text-align: left;
 line-height: 1.5;
  margin-left:30px;
+  margin-top: 3em;
 }
 
 div.sweetdemon {
@@ -285,10 +313,12 @@ margin-top:3em !important;
 }
 
 div.ghibli {
-margin-top:5em !important;
+margin-top:11em !important;
 }
 
 img.sweetdemon {
+border: 0.01em solid #00c5ab;
+box-shadow: 0em 0em 0.5em 0.001em #b71c1c;
 margin-top:0em;
 display: block;
     margin-left: auto;
@@ -296,6 +326,8 @@ display: block;
 }
 
 img.ghibli {
+border: 0.01em solid #00c5ab;
+box-shadow: 0em 0em 0.5em 0.001em #b71c1c;
 margin-top:0em;
 display: block;
     margin-left: auto;
@@ -306,10 +338,10 @@ img.releases {
    overflow: hidden;
    padding: 0em;
    width: 100%;
-   margin-top:16em;
+   margin-top: 11em;
    }
    
-.logo {
+.angel {
    overflow: hidden;
    padding: 0px;
    width: 100%;
@@ -317,7 +349,7 @@ img.releases {
 }
 
 .contact {
-margin-top: 1em;
+margin-top: 3em;
 }
 
 .centered3 {
@@ -348,6 +380,7 @@ color:#00ff00;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: center;
+line-height: 1.5;
 }
 
 h5 {
@@ -365,6 +398,7 @@ color:#00ff00;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: center;
+line-height: 1.5;
 }
 
 
@@ -373,6 +407,7 @@ text-align: center;
   width: 100%;
   padding-bottom: 50%; 
   height: 0;
+  margin-top: 10em;
 }
 .iframe-container iframe{
   position: absolute;
