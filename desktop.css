@@ -259,12 +259,9 @@ box-shadow: 0 0 0px 1.5px #00ff00;
 }
 
 img.releases:hover{
--webkit-filter: hue-rotate(50deg) !important;
-opacity: 0.9;
-box-shadow: 0 0 0px 1.5px #00ff00;
-	-moz-box-shadow: 0 0 0px 1.5px #00ff00;
-	-webkit-box-shadow: 0 0 0px 1.5px #00ff00;
-
+box-shadow: 0 0 0px 3px #00ff00;
+	-moz-box-shadow: 0 0 0px 3px #00ff00;
+	-webkit-box-shadow: 0 0 0px 3px #00ff00;
 }
 
 
