@@ -402,6 +402,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
 text-align: right;
  text-shadow: 2px 2px 5px #1ff2de;
+ margin-bottom: 1.5em;
 }
 
 h4 {
@@ -421,6 +422,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
  text-shadow: 2px 2px 5px #ec2ec4;
  text-align: left;
+ margin-bottom: 1em;
 }
 
 h6 {
