@@ -11,6 +11,8 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a,a:link,a:visited{outline:none;}
+
 html {
   scroll-behavior: smooth;
 }
