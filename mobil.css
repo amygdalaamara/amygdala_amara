@@ -463,7 +463,7 @@ a.seven {
   color: #b5ffb5;
   text-decoration:none;
   font-family: 'Courier New',Arial;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: lighter;
   text-shadow: 2px 2px 5px #ec2ec4;
 }
@@ -472,7 +472,7 @@ a.seven:hover {
   color: #e9ffe9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: lighter;
   text-shadow: 2px 2px 5px #ec2ec4;
 }
