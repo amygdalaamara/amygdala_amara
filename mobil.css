@@ -66,15 +66,16 @@ visibility: hidden;
 }
 
 a.four {
-color:#00FF00;
-text-decoration:none;
-font-family: 'Courier New',Arial;
-font-size: 14px;
-font-weight: lighter;
+  color: #b5ffb5;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 14px;
+  font-weight: lighter;
+   text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 a.four:hover {
-  color: #d8ffd8;
+  color: #e9ffe9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 14px;
@@ -100,15 +101,16 @@ a.one:hover {
 }
 
 a.five {
-color:#00FF00;
-text-decoration:none;
-font-family: 'Courier New',Arial;
-font-size: 12px;
-font-weight: lighter;
+  color: #b5ffb5;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 12px;
+  font-weight: lighter;
+   text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 a.five:hover {
-  color: #d8ffd8;
+  color: #e9ffe9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
@@ -243,16 +245,7 @@ z-index:1
   }  
   
   a.two {
-color:#00ff00;
-text-decoration:none;
-font-family: 'Courier New',Arial;
-font-size: 12px;
-font-weight: lighter;
-}
-
-
-a.two:hover {
-  color: #d8ffd8;
+  color: #b5ffb5;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
@@ -261,17 +254,44 @@ a.two:hover {
 }
 
 
-a.six {
-color:#00FF00;
-text-decoration:none;
-font-family: 'Courier New',Arial;
-font-size: 12px;
-font-weight: lighter;
+a.two:hover {
+  color: #e9ffe9;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 12px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
 }
+
+  a.eight {
+  color: #b5ffb5;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 12px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
+}
+
+a.eight:hover {
+  color: #e9ffe9;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 12px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
+}
+
+a.six {
+  color: #b5ffb5;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 12px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;}
 
 
 a.six:hover {
-  color: #d8ffd8;
+  color: #e9ffe9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
@@ -440,15 +460,16 @@ margin-top: 0em;
 }
 
 a.seven {
-color:#00FF00;
-text-decoration:none;
-font-family: 'Courier New',Arial;
-font-size: 16px;
-font-weight: lighter;
+  color: #b5ffb5;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 16px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 a.seven:hover {
-  color: #d8ffd8;
+  color: #e9ffe9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 16px;
