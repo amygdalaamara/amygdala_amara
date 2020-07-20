@@ -11,6 +11,8 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a,a:link,a:visited{outline:none;}
+
 html {
   scroll-behavior: smooth;
 }
@@ -313,7 +315,7 @@ margin-top:3em !important;
 }
 
 div.ghibli {
-margin-top:11em !important;
+margin-top: 3em !important;
 }
 
 img.sweetdemon {
@@ -361,7 +363,7 @@ margin-top:16em;
 }
 
 .thanksyou {
-margin-top:10em;
+margin-top:8em;
 }
 
 
@@ -372,6 +374,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
 text-align: center;
 margin-top: 3em;
+margin-bottom: 2em;
 }
 
 h4 {
@@ -381,6 +384,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
 text-align: center;
 line-height: 1.5;
+margin-top: 0em;
 }
 
 h5 {
@@ -390,6 +394,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
 text-align: center;
 margin-top: 3em;
+margin-bottom: 2em;
 }
 
 h6 {
@@ -399,6 +404,7 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
 text-align: center;
 line-height: 1.5;
+margin-top: 0em;
 }
 
 
@@ -407,7 +413,7 @@ line-height: 1.5;
   width: 100%;
   padding-bottom: 50%; 
   height: 0;
-  margin-top: 10em;
+  margin-top: 3em;
 }
 .iframe-container iframe{
   position: absolute;
@@ -416,5 +422,79 @@ line-height: 1.5;
   width: 100%;
   height: 100%;
 }
+
+.iframe-container2{
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%; 
+  height: 0;
+}
+.iframe-container2 iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a.seven {
+color:#00FF00;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 16px;
+font-weight: lighter;
+}
+
+a.seven:hover {
+  color: #d8ffd8;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 16px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
+}
+
+
+
+div.pressphotos {
+margin-top:15em;
+margin-bottom:1em;
+}
+
+div.pressphotos1 {
+font-size:16px; 
+color:#00FF00; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: center;
+margin-bottom:1em;
+}
+
+div.pressphotos2 {
+font-size:12px; 
+color:#00ff00; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: center;
+}
+
+
+img.radioeins {
+margin-bottom:1em !important;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:300px;
+height:167px;
+}
+
+div.press {
+text-align: center;
+}
+
+.thanksyou {
+margin-top:15em;
+}
+
 </style>
 </head>

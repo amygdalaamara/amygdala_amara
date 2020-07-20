@@ -17,6 +17,8 @@ html {
   scroll-behavior: smooth;
 }
 
+a,a:link,a:visited{outline:none;}
+
 .loader {
 position: fixed;
 z-index: 99;
@@ -435,6 +437,65 @@ margin-top: 0em;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+a.seven {
+color:#00FF00;
+text-decoration:none;
+font-family: 'Courier New',Arial;
+font-size: 16px;
+font-weight: lighter;
+}
+
+a.seven:hover {
+  color: #d8ffd8;
+  text-decoration:none;
+  font-family: 'Courier New',Arial;
+  font-size: 16px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
+}
+
+
+
+div.pressphotos {
+margin-top:15em;
+margin-bottom:1em;
+}
+
+div.pressphotos1 {
+font-size:16px; 
+color:#00FF00; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: center;
+margin-bottom:1em;
+}
+
+div.pressphotos2 {
+font-size:12px; 
+color:#00ff00; 
+font-family:'Courier New',Arial; 
+font-weight: lighter;
+text-align: center;
+}
+
+
+img.radioeins {
+margin-bottom:1em !important;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:300px;
+height:167px;
+}
+
+div.press {
+text-align: center;
+}
+
+.thanksyou {
+margin-top:15em;
 }
 
 </style>
