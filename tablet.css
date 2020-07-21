@@ -242,14 +242,14 @@ position: absolute;
 z-index:1
   }  
   
-  a.two {
-  color: #000000;
+ a.two {
+  color: #b5ffb5;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #ffe754;
 }
+
 
 a.two:hover {
   color: #e9ffe9;
@@ -257,16 +257,14 @@ a.two:hover {
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #ffe754;
 }
 
   a.eight {
-  color: #000000;
+  color: #b5ffb5;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #54ff69;
 }
 
 a.eight:hover {
@@ -275,7 +273,6 @@ a.eight:hover {
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #54ff69;
 }
 
 a.six {
@@ -336,6 +333,7 @@ img.releases:hover{
    width: 100%;
    margin-top:0em !important;
       transition: 0.6s;
+   
 }
 
 .angel:hover{
@@ -421,14 +419,8 @@ body, html {
 }
 
 .parallax {
-  background-image: url('blue.jpg');
-margin-top:0em;
-margin-bottom: 0em !important;
   height: 90em; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+   background-color: #39c939;
 }
 
 
@@ -438,7 +430,6 @@ color:#000000;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: right;
- text-shadow: 2px 2px 5px #1ff2de;
 }
 
 h4 {
@@ -447,7 +438,6 @@ color:#000000;
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: right;
- text-shadow: 2px 2px 5px #1ff2de;
  line-height: 1.5;
 }
 
@@ -456,7 +446,6 @@ font-size:16px;
 color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
- text-shadow: 2px 2px 5px #ec2ec4;
  text-align: left;
 }
 
@@ -465,7 +454,6 @@ font-size:12px;
 color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
- text-shadow: 2px 2px 5px #ec2ec4;
  text-align: left;
  line-height: 1.5;
 }

@@ -250,7 +250,6 @@ z-index:1
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 
@@ -260,7 +259,6 @@ a.two:hover {
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #ec2ec4;
 }
 
   a.eight {
@@ -269,7 +267,6 @@ a.two:hover {
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 a.eight:hover {
@@ -278,7 +275,6 @@ a.eight:hover {
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 a.six {
@@ -366,6 +362,7 @@ img.releases {
    }
    
 .angel {
+display:none; 
    overflow: hidden;
    padding: 0px;
    width: 100%;
@@ -391,7 +388,7 @@ margin-top:8em;
 
 h3 {
 font-size:16px; 
-color:#00ff00; 
+color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: center;
@@ -401,7 +398,7 @@ margin-bottom: 2em;
 
 h4 {
 font-size:12px; 
-color:#00ff00; 
+color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: center;
@@ -411,7 +408,7 @@ margin-top: 0em;
 
 h5 {
 font-size:16px; 
-color:#00ff00; 
+color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: center;
@@ -421,7 +418,7 @@ margin-bottom: 2em;
 
 h6 {
 font-size:12px; 
-color:#00ff00; 
+color:#000000; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: center;
@@ -517,6 +514,11 @@ text-align: center;
 
 .thanksyou {
 margin-top:12em;
+}
+
+.parallax {
+ background-color: #39c939;
+height: 76em; 
 }
 
 </style>
