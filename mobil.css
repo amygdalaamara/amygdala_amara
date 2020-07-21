@@ -17,8 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 
-a,a:link,a:visited{outline:none;}
-
 .loader {
 position: fixed;
 z-index: 99;
@@ -245,7 +243,7 @@ z-index:1
   }  
   
   a.two {
-  color: #8141f9;
+  color: #ae9ef5;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
@@ -264,7 +262,7 @@ a.two:hover {
 }
 
   a.eight {
-  color: #218cff;
+  color: #9ebbf5;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
@@ -273,7 +271,7 @@ a.two:hover {
 }
 
 a.eight:hover {
-  color: #0061c9;
+  color: #739cef;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
@@ -520,11 +518,12 @@ margin-top:12em;
 }
 
 .parallax {
-background: rgb(130,188,255);
-background: -moz-linear-gradient(90deg, rgba(130,188,255,1) 0%, rgba(119,255,156,1) 50%, rgba(131,69,252,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(130,188,255,1) 0%, rgba(119,255,156,1) 50%, rgba(131,69,252,1) 100%);
-background: linear-gradient(90deg, rgba(130,188,255,1) 0%, rgba(119,255,156,1) 50%, rgba(131,69,252,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#82bcff",endColorstr="#8345fc",GradientType=1);
+  background: rgb(130,188,255);
+background: -moz-linear-gradient(90deg, rgba(130,188,255,0.6362744927072391) 0%, rgba(119,255,156,0.5709828393135725) 50%, rgba(133,69,252,0.7511204310825893) 100%);
+background: -webkit-linear-gradient(90deg, rgba(130,188,255,0.6362744927072391) 0%, rgba(119,255,156,0.5709828393135725) 50%, rgba(133,69,252,0.7511204310825893) 100%);
+background: linear-gradient(90deg, rgba(130,188,255,0.6362744927072391) 0%, rgba(119,255,156,0.5709828393135725) 50%, rgba(133,69,252,0.7511204310825893) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#82bcff",endColorstr="#8545fc",GradientType=1);
+
 height: 76em; 
 }
 
