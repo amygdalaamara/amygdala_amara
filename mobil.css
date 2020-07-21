@@ -245,36 +245,40 @@ z-index:1
   }  
   
   a.two {
-  color: #b5ffb5;
+  color: #8141f9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
+  text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 
 a.two:hover {
-  color: #e9ffe9;
+  color: #a97cfb;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
+     text-shadow: 2px 2px 5px #ec2ec4;
 }
 
   a.eight {
-  color: #b5ffb5;
+  color: #218cff;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
+     text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 a.eight:hover {
-  color: #e9ffe9;
+  color: #0061c9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
+     text-shadow: 2px 2px 5px #ec2ec4;
 }
 
 a.six {
@@ -504,8 +508,7 @@ margin-bottom:1em !important;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width:300px;
-height:167px;
+width:80%;
 }
 
 div.press {
@@ -517,7 +520,11 @@ margin-top:12em;
 }
 
 .parallax {
- background-color: #39c939;
+background: rgb(130,188,255);
+background: -moz-linear-gradient(90deg, rgba(130,188,255,1) 0%, rgba(119,255,156,1) 50%, rgba(131,69,252,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(130,188,255,1) 0%, rgba(119,255,156,1) 50%, rgba(131,69,252,1) 100%);
+background: linear-gradient(90deg, rgba(130,188,255,1) 0%, rgba(119,255,156,1) 50%, rgba(131,69,252,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#82bcff",endColorstr="#8345fc",GradientType=1);
 height: 76em; 
 }
 
