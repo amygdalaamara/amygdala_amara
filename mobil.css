@@ -518,7 +518,7 @@ margin-top:12em;
 }
 
 .parallax {
-background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("blue.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("gradient.jpg");
 height: 76em; 
 }
 
