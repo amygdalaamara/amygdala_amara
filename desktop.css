@@ -243,39 +243,39 @@ z-index:1
   }  
   
   a.two {
-  color: #000000;
+  color: #00ff00;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #ffe754;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 a.two:hover {
-  color: #e9ffe9;
+  color: #b5ffb5;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #ffe754;
+  text-shadow: 2px 2px 5px #000000;
 }
 
   a.eight {
-  color: #000000;
+  color: #00ff00;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #54ff69;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 a.eight:hover {
-  color: #e9ffe9;
+  color: #b5ffb5;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
-  text-shadow: 2px 2px 5px #54ff69;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 a.six {
@@ -331,6 +331,7 @@ img.releases:hover{
 
 
 .angel {
+display:none; 
    overflow: hidden;
    padding: 0em;
    width: 100%;
@@ -421,7 +422,7 @@ body, html {
 }
 
 .parallax {
-  background-image: url('blue.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("lila.jpg");
 margin-top:0em;
 margin-bottom: 0em !important;
   height: 90em; 
@@ -434,38 +435,38 @@ margin-bottom: 0em !important;
 
 h3 {
 font-size:16px; 
-color:#000000; 
+color:#b5ffb5; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: right;
- text-shadow: 2px 2px 5px #1ff2de;
+ text-shadow: 2px 2px 5px #00ff00;
 }
 
 h4 {
 font-size:12px; 
-color:#000000; 
+color:#b5ffb5; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
 text-align: right;
- text-shadow: 2px 2px 5px #1ff2de;
+ text-shadow: 2px 2px 5px #00ff00;
  line-height: 1.5;
 }
 
 h5 {
 font-size:16px; 
-color:#000000; 
+color:#b5ffb5; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
- text-shadow: 2px 2px 5px #ec2ec4;
+ text-shadow: 2px 2px 5px #00ff00;
  text-align: left;
 }
 
 h6 {
 font-size:12px; 
-color:#000000; 
+color:#b5ffb5; 
 font-family:'Courier New',Arial; 
 font-weight: lighter;
- text-shadow: 2px 2px 5px #ec2ec4;
+ text-shadow: 2px 2px 5px #00ff00;
  text-align: left;
  line-height: 1.5;
 }
