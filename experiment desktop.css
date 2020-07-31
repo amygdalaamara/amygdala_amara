@@ -108,26 +108,71 @@ visibility: hidden;
     }
     
         h3 {
-        font-size: 3.2vw;
+        font-size: 3.5vw;
         color:#ebe9ff; 
      font-family:'New Times Roman';
     }
-    
     .button1 {
-        top: 50%;
+	background-color:#ebe9ff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+  font-family: 'Courier New',Arial;
+  font-weight: lighter;
+	font-size:14px;
+	padding:9px 69.5px;
+	text-decoration:none;
+	filter: opacity(80%);
+	transition-duration: 0.4s;
+	
+	    top: 50%;
     left: 50%;
     position: absolute;
-    margin-top: -40px;
+    margin-top: -20px;
     margin-left: -60px;
-    }
+}
+.button1:hover {
+	background-color:#ebe9ff;
+		filter: opacity(60%);
+}
+.button1:active {
+	position:relative;
+	top:1px;
+}
+
+
+.button2 {
+	background-color:#ebe9ff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+  font-family: 'Courier New',Arial;
+  font-weight: lighter;
+	font-size:14px;
+	padding:9px 120px;
+	text-decoration:none;
+	filter: opacity(80%);
+	transition-duration: 0.4s;
+	
+	    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -60px;
+}
+.button2:hover {
+	background-color:#ebe9ff;
+		filter: opacity(60%);
+}
+.button2:active {
+	position:relative;
+	top:60px;
+}
+
+
     
-    .button2 {
-        top: 50%;
-    left: 50%;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: -60px;
-    }
     
  
   a.two {
