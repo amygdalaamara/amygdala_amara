@@ -118,13 +118,14 @@ visibility: hidden;
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-  font-family: 'Courier New',Arial;
-  font-weight: lighter;
+  font-family:'HelveticaNeue', Helvetica, sans-serif;
+    font-weight: lighter;
 	font-size:14px;
-	padding:9px 69.5px;
+	padding:10px 84px 8px;
 	text-decoration:none;
 	filter: opacity(80%);
 	transition-duration: 0.4s;
+	letter-spacing: 1px;
 	
 	    top: 50%;
     left: 50%;
@@ -148,13 +149,14 @@ visibility: hidden;
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-  font-family: 'Courier New',Arial;
+  font-family: 'HelveticaNeue', Helvetica, sans-serif;
   font-weight: lighter;
 	font-size:14px;
-	padding:9px 120px;
+	padding:10px 120px 8px;
 	text-decoration:none;
 	filter: opacity(80%);
 	transition-duration: 0.4s;
+	letter-spacing: 1px;
 	
 	    top: 50%;
     left: 50%;
@@ -451,6 +453,7 @@ margin-top:0em;
   font-size: 12px;
   font-weight: lighter;
   text-shadow: 2px 2px 5px #000000;
+  transition-duration: 0.2s;
 }
 
 a.eight:hover {
@@ -469,6 +472,7 @@ a.six {
   font-size: 12px;
   font-weight: lighter;
   text-shadow: 2px 2px 5px #ec2ec4;
+  transition-duration: 0.2s;
 }
 
 a.six:hover {
@@ -487,6 +491,7 @@ a.seven {
   font-size: 12px;
   font-weight: lighter;
   text-shadow: 2px 2px 5px #ec2ec4;
+  transition-duration: 0.2s;
 }
 
 a.seven:hover {
@@ -506,6 +511,7 @@ a.four {
   font-size: 14px;
   font-weight: lighter;
    text-shadow: 2px 2px 5px #ec2ec4;
+   transition-duration: 0.2s;
 }
 
 a.four:hover {
@@ -523,6 +529,7 @@ text-decoration:none;
 font-family: 'Courier New',Arial;
 font-size: 16px;
 font-weight: lighter;
+transition-duration: 0.2s;
 }
 
 a.one:hover {
@@ -540,6 +547,7 @@ a.five {
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
+  transition-duration: 0.2s;
 }
 
 a.five:hover {
@@ -556,14 +564,16 @@ font-family:'Courier New',Arial;
 font-weight: lighter;
  text-decoration:none;
 font-size: 16px;
+transition-duration: 0.2s;
 }
 
 a.ten:hover {
-color:#ebe9ff;
 font-family:'Courier New',Arial;
 font-weight: lighter;
  text-decoration:none;
 font-size: 16px;
+  color: #8e9cff;
+   text-shadow: 2px 2px 5px red;
 }
 
 
