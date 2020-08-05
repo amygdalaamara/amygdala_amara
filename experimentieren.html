@@ -1,20 +1,13 @@
-<html><head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" media="(max-device-width: 1024px)" href="mobil.css">
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="(max-width: 1024px)" href="experiment mobil.css">
 <link rel="stylesheet" type="text/css" media="(min-width: 1025px)" href="experiment desktop.css">
-<meta charset="UTF-8">
-<meta name="description" content="amygdala_amara">
-<meta name="keywords" content="amygdala_amara, amygdala amara, amygdala-amara.com">
-<meta name="author" content="amygdala_amara">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<body>
+
+
 <body bgcolor="#000000">
 
 <div class="loader hidden">
@@ -28,20 +21,27 @@ loader.className += " hidden"; // class "loader hidden"
 
 <div class="header"></div>
 <div class="footer"></div>
-<div class="hero-image">
+
+<div class="headcontent">
+<video autoplay muted loop id="myVideo">
+  <source src="video.mp4" type="video/mp4">
+</video>
 
 
  <div class="streaming">
 <a class="five" href="spotify:artist:5ow5XVwCOfNy3rifz6KSoF" target="_blank">  {spotify}  </a><a class="five" href="https://music.apple.com/us/artist/amygdala-amara/1513588735" target="_blank">  {apple music}  </a><a class="five" href="https://music.amazon.de/artists/B0894X7ZCR?ref=dm_sh_6b85-438d-dmcp-dbc2-df972&amp;musicTerritory=DE&amp;marketplaceId=A1PA6795UKMFR9" target="_blank">  {amazon music}  </a><a class="five" href="https://music.youtube.com/channel/UCMAxL753zYWHUjJMRNLlPPQ" target="_blank">  {youtube music}  </a>
 </div>
 
+<div class="socialmedia">
+<a class="spotify" href="spotify:artist:5ow5XVwCOfNy3rifz6KSoF" target="_blank"></a>
+<a class="applemusic" href="https://music.apple.com/us/artist/amygdala-amara/1513588735" target="_blank"></a>
  <a class="youtube" href="https://www.youtube.com/channel/UCZ3Q6Jyo-1jtmnjm7v7ZOdg?view_as=subscriber" target="_blank"></a>
 <a class="soundcloud" href="https://soundcloud.com/amygdala_amara" target="_blank"></a>
 <a class="instagram" href="https://www.instagram.com/amygdala_amara/" target="_blank"></a>
 <a class="facebook" href="https://www.facebook.com/amygdalaamaramusic/" target="_blank"></a>
 <a class="twitter" href="https://twitter.com/amygdalaamara" target="_blank"></a>
 <a class="twitch" href="https://www.twitch.tv/amygdala_amara" target="_blank"></a>
- 
+ </div>
 
 
 <div class="centered"><a class="ten" href="#top">amygdala_amara</a>
@@ -65,14 +65,20 @@ loader.className += " hidden"; // class "loader hidden"
     
 <a href="https://genius.com/Amygdala-amara-we-cant-be-the-judged-ones-if-theres-no-one-to-judge-us-lyrics" target="_blank" class="button2">LYRICS</a>
 
-  <img class="ghibli" src="ghibli.png">
+ <a href="https://ffm.to/we-cant-be-the-judged-ones" target="_blank" class="albumlink"><img class="ghibli" src="ghibli.png"></a>
 
-</div>
+
+  </div>
+
+
+
+
+<div class="mobilebackground">
 
 <div class="iframe-container"><iframe src="https://www.youtube.com/embed/SxNuDlTxCuk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" frameborder="0"></iframe></div>
 <div class="iframe-container2"><iframe src="https://www.youtube.com/embed/rpq_HBkRZgs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" frameborder="0"></iframe></div>
 
-<div class="parallax-contact"><br><br><a name="contact"><br><br><br><br><br><br><br><br><center><div class="contact">
+<div class="parallax-contact"><br><br><br><br><a name="contact"><br><br><br><br><center><div class="contact">
 <span style="font-size:12px; color:#00FF00; font-family:'Courier New',Arial; font-weight: lighter">
 |<br>
 |<br>
@@ -99,7 +105,8 @@ _ | _<br>
 
 </div>
 
-<div class="parallax-press"><a name="press"><br><br><br><br><br><br><br><br><br>
+<div class="parallax-press">
+<a name="press"><br><br><br><br><br><br><br><br><br>
 <div class="pressphotos"><div class="pressphotos1">press</div></a><div class="pressphotos2"><a name="famous">press photos / text: </a><a class="six" href="https://www.amygdala-amara.com/press" target="_blank">.{HERE}</a></div></div>
 
 <div class="press"><a href="https://www.radioeins.de/programm/sendungen/modo1316/interviews/-amygdala-amara.html" target="_blank"><img class="radioeins" src="radioeins.jpg"></a>
@@ -109,9 +116,9 @@ _ | _<br>
 
 <div class="parallax-live">
 
-<center><div class="live"><br><br><br><br><a name="live"><br><br><br><br><br>
+<center><div class="live"><br><br><br><br><br><br><a name="live"><br><br><br>
 <span style="font-size:16px; color:#00FF00; font-family:'Courier New',Arial; font-weight: lighter">amygdala_amara live</a></span>
-<p><span style="font-size:12px; color:#00FF00; font-family:'Courier New',Arial; font-weight: lighter">_____________________________________________________________________________________________________________________________<br><br><br><br>it's fucking corona, baby<br><br><br>_____________________________________________________________________________________________________________________________</span></div></center>
+<p><br><br><hr size="1"><br><br><span style="font-size:12px; color:#00FF00; font-family:'Courier New',Arial; font-weight: lighter">it's fucking corona, baby</span><br><br><br><hr size="1"></span></div></center>
 
 <div class="thanksyou"><br><br><br><br><br><br><br><br><br><br><br><br>
 <center><span style="font-size:12px; color:#00FF00; font-family:'Courier New',Arial; font-weight: lighter">^<br>^<br>\&nbsp;&nbsp; ^ &nbsp;&nbsp;/<br></span><br></center>
@@ -119,6 +126,7 @@ _ | _<br>
 
 </div>
 
+</div>
 
-
-</body></html>
+</body>
+</html>
