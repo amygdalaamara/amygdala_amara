@@ -331,9 +331,9 @@ display:none;
 }
 
 .mobilebackground {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95)), url("whiteangel.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95)), url("flowers.jpg");
   height: 100%;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
