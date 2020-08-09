@@ -192,8 +192,14 @@ object-fit: cover;
     position: absolute;
     margin-top: -200px;
     margin-left: -500px;
+         transition: 1s;
   }
   
+   img.ghibli:hover {
+  -webkit-filter: hue-rotate(-90deg);
+    filter: hue-rotate(-90deg);
+     transition: 1s;
+      }
 
 .mobilebackground {
 display:hidden;
