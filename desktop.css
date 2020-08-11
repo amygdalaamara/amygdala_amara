@@ -148,10 +148,7 @@ object-fit: cover;
 	background-color:#ebe9ff;
 		filter: opacity(50%);
 }
-.button1:active {
-	position:relative;
-	top:1px;
-}
+
 
 
 .button2 {
@@ -179,10 +176,7 @@ object-fit: cover;
 	background-color:#ebe9ff;
 		filter: opacity(50%);
 }
-.button2:active {
-	position:relative;
-	top:60px;
-}
+
 
  img.ghibli {
        width: 400px;
