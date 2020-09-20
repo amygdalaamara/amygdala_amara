@@ -200,14 +200,9 @@ object-fit: cover;
     position: absolute;
     margin-top: -200px;
     margin-left: -500px;
-         transition: 1s;
   }
   
-   img.ghibli:hover {
-  -webkit-filter: hue-rotate(-90deg);
-    filter: hue-rotate(-90deg);
-     transition: 1s;
-      }
+
 
 .mobilebackground {
 display:hidden;
@@ -248,7 +243,7 @@ top: 3px;
 right: 230px;
 position: fixed;
 display: inline-block;
-background: url("youtube.png") no-repeat;
+background: url("youtube lila.png") no-repeat;
 background-size: 22px;
  z-index:99;
 }
@@ -265,7 +260,7 @@ height:22px;
 right: 190px;
 position: fixed;
 display: inline-block;
-background: url("soundcloud.png") no-repeat;
+background: url("soundcloud lila.png") no-repeat;
 background-size: 22px;
  z-index:99;
 }
@@ -282,7 +277,7 @@ height:20px;
 right: 150px;
 position: fixed;
 display: inline-block;
-background: url("instagram.png") no-repeat;
+background: url("instagram lila.png") no-repeat;
 background-size: 20px;
  z-index:99;
 }
@@ -299,7 +294,7 @@ top: 4px;
 right: 110px;
 position: fixed;
 display: inline-block;
-background: url("facebook.png") no-repeat;
+background: url("facebook lila.png") no-repeat;
 background-size: 20px;
  z-index:99;
 }
@@ -316,7 +311,7 @@ top: 4px;
 right: 70px;
 position: fixed;
 display: inline-block;
-background: url("twitter.png") no-repeat;
+background: url("twitter lila.png") no-repeat;
 background-size: 20px;
  z-index:99;
 }
@@ -333,7 +328,7 @@ top: 4px;
  right: 30px;
 position: fixed;
 display: inline-block;
-background: url("twitch.png") no-repeat;
+background: url("twitch lila.png") no-repeat;
 background-size: 20px;
  z-index:99;
 }
@@ -472,7 +467,7 @@ margin-top:0em;
 
 .headerspan {
 font-size:16px; 
-color:#00ff00; 
+color:#c1bce9; 
 font-family:'Courier New',Arial; 
 font-weight: lighter
 }
@@ -555,7 +550,7 @@ a.four:hover {
 }
 
 a.one {
-color:#00FF00;
+color:#c1bce9;
 text-decoration:none;
 font-family: 'Courier New',Arial;
 font-size: 16px;
@@ -569,11 +564,11 @@ a.one:hover {
   font-family: 'Courier New',Arial;
   font-size: 16px;
   font-weight: lighter;
-   text-shadow: 2px 2px 5px red;
+   text-shadow: 0px 0px 5px red;
 }
 
 a.five {
-  color: #b5ffb5;
+  color: #edecf9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
@@ -582,15 +577,16 @@ a.five {
 }
 
 a.five:hover {
-  color: #ebe9ff;
+  color: #e5d1f9;
   text-decoration:none;
   font-family: 'Courier New',Arial;
   font-size: 12px;
   font-weight: lighter;
+  text-shadow: 0px 0px 5px red;
 }
 
 a.ten {
-color:#00FF00;
+color:#c1bce9;
 font-family:'Courier New',Arial;
 font-weight: lighter;
  text-decoration:none;
@@ -604,7 +600,7 @@ font-weight: lighter;
  text-decoration:none;
 font-size: 16px;
   color: #8e9cff;
-   text-shadow: 2px 2px 5px red;
+   text-shadow: 0px 0px 5px red;
 }
 
 
