@@ -113,12 +113,26 @@ object-fit: cover;
         top: 50%;
     left: 50%;
     position: absolute;
-    margin-top: -190px;
+    margin-top: -160px;
     margin-left: -60px;
     }
     
+        .thenewsingle {
+        top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: -60px;
+    }
+
         h3 {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
+        color:#000000; 
+     font-family:'New Times Roman';
+    }
+    
+        h4 {
+        font-size: 1.8vw;
         color:#000000; 
      font-family:'New Times Roman';
     }
@@ -141,7 +155,7 @@ object-fit: cover;
 	    top: 50%;
     left: 50%;
     position: absolute;
-    margin-top: -20px;
+    margin-top: 10px;
     margin-left: -60px;
 }
 .button1:hover {
@@ -169,7 +183,7 @@ object-fit: cover;
 	    top: 50%;
     left: 50%;
     position: absolute;
-    margin-top: 35px;
+    margin-top: 55px;
     margin-left: -60px;
 }
 .button2:hover {
