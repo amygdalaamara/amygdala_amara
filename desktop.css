@@ -64,13 +64,14 @@ z-index: 99;
 
 .bottom_area {
 position: fixed;
-bottom: -45px;
+bottom: 0;
 left: 50%;
 -webkit-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 }
 
 .firstbottomline {
+text-align: center;
 }
 
 
@@ -105,12 +106,10 @@ vertical-align: middle;
 }
 
 .secondbottomline {
-margin-top: 5px;
-text-align: center;
 }
 
 .thirdbottomline {
-margin-top: 5px;
+margin-top: 0px;
 text-align: center;
 }
 
@@ -155,10 +154,7 @@ img.twitter_white {
 vertical-align: top;
 }
 
-img.newsletter {
-width:480px;
-vertical-align: middle;
-}
+
 
 
 
@@ -230,7 +226,9 @@ transition-duration: 0.4s;
 }
 
 
-    
+
+
+
 
 </style>
 </head>
