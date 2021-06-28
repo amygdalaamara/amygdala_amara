@@ -82,13 +82,13 @@ margin-bottom: 10px;
 
 .tour {
 display: inline;
-margin-right:2.5px;
+margin-right:0px;
 }
 
 .bracketleft {
 display: inline;
-margin-right:5px;
-margin-left: 2.5px;
+margin-right:0px;
+margin-left: 0px;
 cursor: default;
 }
 
@@ -99,14 +99,14 @@ z-index: 99;
 
 .bracketright {
 display: inline;
-margin-right:2.5px;
-margin-left: 5px;
+margin-right:0px;
+margin-left: 0px;
 cursor: default;
 }
 
 .store {
 display: inline;
-margin-left: 2.5px;
+margin-left: 0px;
 vertical-align: middle;
 }
 
