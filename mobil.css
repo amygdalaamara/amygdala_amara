@@ -64,7 +64,7 @@ height: auto;
 
 
 .bottom_area {
-position: fixed;
+position: absolute;
 width: auto;
 height: auto;
 margin-left:10px;
