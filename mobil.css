@@ -220,19 +220,20 @@ transition-duration: 0.4s;
 
 a.five {
 color:#ffffff;
-font-family: 'IM Fell English', serif;
+font-family: 'Gabriele Dark Ribbon FG', serif;
  text-decoration:none;
-font-size: 15px;
+font-size: 13px;
 transition-duration: 0.4s;
+-moz-osx-font-smoothing: grayscale;
 }
 
 a.six {
 color:#ffffff;
-font-family: 'IM Fell English', serif;
-font-style: italic;
+font-family: 'Gabriele Dark Ribbon FG', serif;
  text-decoration:none;
-font-size: 15px;
+font-size: 13px;
 transition-duration: 0.4s;
+-moz-osx-font-smoothing: grayscale;
 }
 
 
