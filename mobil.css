@@ -225,6 +225,7 @@ font-family: 'Gabriele Dark Ribbon FG', serif;
 font-size: 13px;
 transition-duration: 0.4s;
 -moz-osx-font-smoothing: grayscale;
+src: url("../amygdala_amara/gabriele-dark-ribbon-fg-regular.ttf") format('truetype');
 }
 
 a.six {
@@ -234,6 +235,7 @@ font-family: 'Gabriele Dark Ribbon FG', serif;
 font-size: 13px;
 transition-duration: 0.4s;
 -moz-osx-font-smoothing: grayscale;
+src: url("../amygdala_amara/gabriele-dark-ribbon-fg-regular.ttf") format('truetype');
 }
 
 
