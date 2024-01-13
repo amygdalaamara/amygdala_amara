@@ -110,17 +110,16 @@ margin-left: 0px;
 vertical-align: middle;
 }
 
-.secondbottomline {
-display: inline;
-}
 
 .subscription_widget {
 display: inline;
 }
 
-.thirdbottomline {
+.secondbottomline {
 margin-top: 0px;
 text-align: center;
+position: relative;
+padding-bottom:10px;
 }
 
 .copyright {

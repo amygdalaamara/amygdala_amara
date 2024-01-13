@@ -106,17 +106,15 @@ margin-left: 10px;
 vertical-align: middle;
 }
 
-.secondbottomline {
-display: inline;
-}
-
 .subscription_widget {
 display: inline;
 }
 
-.thirdbottomline {
+.secondbottomline {
 margin-top: 0px;
 text-align: center;
+position: relative;
+padding-bottom:20px;
 }
 
 .copyright {
