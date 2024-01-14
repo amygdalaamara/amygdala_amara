@@ -16,13 +16,15 @@ margin: 0;
 overflow: hidden;
 }
 
-body {
-background-image: url(green.jpg);
-height: 100%;
-margin: 0;
-background-size: cover;
+ video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
- 
+
 .artist_name {
 position: relative;
 padding-top:15px;
